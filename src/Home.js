@@ -7,6 +7,7 @@ import Tanusri from './Tanusri.png';
 import Lightbulb from './lightbulb.png';
 import lightbulbyash from './YashPOV.png';
 import beginning from './beginning.png';
+import about from './about.png';
 //import Landing from './components/Home/Landing';
 //import { SearchForm } from './components/Home/SearchForm';
 
@@ -104,13 +105,15 @@ class Home extends Component {
                         </div>
                     </li>
                     <li className="timeline-inverted">
-                        <div className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="" /></div>
+                        <div className="timeline-image"><img className="rounded-circle img-fluid" src={about} alt="About" /></div>
                         <div className="timeline-panel">
                             <div className="timeline-heading">
-                                <h4>July 2014</h4>
-                                <h4 className="subheading">Phase Two Expansion</h4>
+                                <h4>About us:</h4>
+                                <h4 className="subheading">What is Recommendo</h4>
                             </div>
-                            <div className="timeline-body"><p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div className="timeline-body"><p className="text-muted">Here's how this works: You are tucked in for the night. You want to watch a movie but it takes you forever to decide which movies you want to watch and finally it's 4 a.m and neither did you watch a movie nor did you sleep. 
+Or you've just completed a book, a captivating and enticing book. Now, you want to read another book. Your expectations are high because you've just read this magnetic book. But no amount of searching is helping you find another perfect book.
+With Recommendo we are with you! We are here to help you find the perfect movie or the perfect book based on the recent ones you've completed.</p></div>
                         </div>
                     </li>
                     <li className="timeline-inverted">
