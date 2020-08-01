@@ -38,7 +38,7 @@ class Home extends Component {
                     
                 </div>
                 <div className="row text-center">
-                 <div className="col-md-7">
+                 <div className="col-md-12">
                    <button>
                       <span className="fa-stack fa-4x">
                             <i className="fa fa-circle fa-stack-2x text-primary"></i>
@@ -48,16 +48,7 @@ class Home extends Component {
                     <NavLink to="/Landing"> <h4 className="my-3">Movies</h4></NavLink>
                      <p className="text-muted">Find out which movie you will watch tonight curled up in your bed.</p>
                     </div>
-                    <div className="col-md-4">
-                       <button>
-                       <span className="fa-stack fa-4x">
-                            <i className="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i className="fa fa-book fa-stack-1x fa-inverse"></i>
-                        </span>
-                        </button>
-                   <NavLink to="/LandingBook"><h4 className="my-3">Books</h4></NavLink>
-                        <p className="text-muted">Is it impossible to decide which book to read after you finish one? Well, not anymore!</p>
-                    </div>
+                  
                   
                 </div>
             </div>
@@ -80,7 +71,7 @@ class Home extends Component {
                                 <h4 className="subheading">Our Humble Beginnings:
                                                               Tanusri's POV</h4>
                             </div>
-                            <div className="timeline-body"><p className="text-muted">There I was laying on my couch reading a book and an idea just strolled into my head. What if there was a way to know which movies to watch or which books to read based on what we previously watched and read. I immediately texted Yash about it and the rest is history.</p></div>
+                            <div className="timeline-body"><p className="text-muted">There I was laying on my couch reading a book and an idea just strolled into my head. What if there was a way to know which movies to watch based on what we previously watched . I immediately texted Yash about it and the rest is history.</p></div>
                         </div>
                     </li>
                     <li className="timeline-inverted">
@@ -111,9 +102,8 @@ class Home extends Component {
                                 <h4>About us:</h4>
                                 <h4 className="subheading">What is Recommendo</h4>
                             </div>
-                            <div className="timeline-body"><p className="text-muted">Here's how this works: You are tucked in for the night. You want to watch a movie but it takes you forever to decide which movies you want to watch and finally it's 4 a.m and neither did you watch a movie nor did you sleep. 
-Or you've just completed a book, a captivating and enticing book. Now, you want to read another book. Your expectations are high because you've just read this magnetic book. But no amount of searching is helping you find another perfect book.
-With Recommendo we are with you! We are here to help you find the perfect movie or the perfect book based on the recent ones you've completed.</p></div>
+                            <div className="timeline-body"><p className="text-muted">Here's how this works: You are tucked in for the night. You want to watch a movie but it takes you forever to decide which movies you want to watch and finally it's 4 a.m and neither did you watch a movie nor did you sleep.
+With Recommendo we are with you! We are here to help you find the perfect movie based on the recent ones you've completed.</p></div>
                         </div>
                     </li>
                     <li className="timeline-inverted">
